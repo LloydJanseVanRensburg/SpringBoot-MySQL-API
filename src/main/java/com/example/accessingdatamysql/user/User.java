@@ -1,18 +1,24 @@
-package com.example.accessingdatamysql;
+package com.example.accessingdatamysql.user;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 
-@Entity // This tells Hibernate to make a table out of this class
+@Entity
+@Table
 public class User {
+
     @Id
-    @GeneratedValue(strategy=GenerationType.AUTO)
+    @SequenceGenerator(
+            name="users_sequence",
+            sequenceName = "users_sequence",
+            allocationSize = 1
+    )
+    @GeneratedValue(
+            strategy=GenerationType.SEQUENCE,
+            generator = "users_sequence"
+    )
+
     private Integer id;
-
     private String name;
-
     private String email;
 
     public Integer getId() {
