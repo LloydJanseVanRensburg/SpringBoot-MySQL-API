@@ -5,7 +5,6 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import za.co.nwu.accountsystemapi.exception.ApiRequestException;
 
 import java.util.List;
 
@@ -27,8 +26,7 @@ public class MilesAccountController {
     )
     public List<MilesAccount> getMilesAccounts() {
         logger.trace("Get Miles Account(s) Fired");
-        throw new ApiRequestException("Oops cannot get all students with custom exception");
-//        return milesAccountService.getMilesAccounts();
+        return milesAccountService.getMilesAccounts();
     }
 
     @GetMapping("/{id}")
