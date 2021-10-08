@@ -13,24 +13,34 @@ public class MilesAccount {
     private Integer userId;
     private Integer totalMilesCount;
 
-    public Integer getId() {
-        return id;
+    public MilesAccount() {
     }
 
-    public void setId(Integer id) {
-        this.id = id;
+    public MilesAccount(Integer userId, Integer totalMilesCount) {
+        this.userId = userId;
+        this.totalMilesCount = totalMilesCount;
+    }
+
+    // Getters
+    public Integer getId() {
+        return id;
     }
 
     public Integer getUserId() {
         return userId;
     }
 
-    public void setUserId(Integer userId) {
-        this.userId = userId;
-    }
-
     public Integer getTotalMilesCount() {
         return totalMilesCount;
+    }
+
+    // Setters
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public void setUserId(Integer userId) {
+        this.userId = userId;
     }
 
     public void setTotalMilesCount(Integer totalMilesCount) {

@@ -13,6 +13,7 @@ import java.util.List;
 @RequestMapping(path="/api/v1/miles")
 public class MilesAccountController {
 
+    // MilesAccountController Logger
     Logger logger = LoggerFactory.getLogger(MilesAccountController.class);
 
     @Autowired
@@ -20,8 +21,8 @@ public class MilesAccountController {
 
     @GetMapping("/")
     @ApiOperation(
-            value="List out ALL of the miles accounts",
-            notes="Nothing needs to be provided",
+            value="Get ALL MilesAccounts",
+            notes="No data required",
             response= MilesAccount.class,
             responseContainer = "List"
     )
