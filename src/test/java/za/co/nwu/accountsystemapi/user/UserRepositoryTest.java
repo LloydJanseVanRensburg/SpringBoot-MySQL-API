@@ -10,34 +10,40 @@ import java.util.Optional;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 @DataJpaTest
-public class UserRepositoryTest {
+class UserRepositoryTest {
 
     @Autowired
-    private  UserRepository underTest;
+    private UserRepository userRepositoryTest;
 
     @AfterEach
     void tearDown() {
-        underTest.deleteAll();
+        userRepositoryTest.deleteAll();
     }
 
     @Test
-    void findUserByEmail() {
+    void itShouldFindUserByEmail() {
+        String email = "lloydjvrensburg@gmail.com";
+
+        // given
+        User user = new User("Lloyd", "Janse van Rensburg", email);
+        userRepositoryTest.save(user);
+
+        // when
+        Optional<User> foundUser = userRepositoryTest.findUserByEmail(email);
+
+        // then
+        assertThat(foundUser.isPresent()).isTrue();
+    }
+
+    @Test
+    void itShouldNotFindUserByEmail() {
         // given
         String email = "lloydjvrensburg@gmail.com";
 
-
-        User user = new User(
-                "Lloyd",
-                "Janse van Rensburg",
-                email
-        );
-
-        underTest.save(user);
-
         // when
-        Optional<User> exists = underTest.findUserByEmail(email);
+        Optional<User> foundUser = userRepositoryTest.findUserByEmail(email);
 
         // then
-        assertThat(exists).isNotNull();
+        assertThat(foundUser.isPresent()).isFalse();
     }
 }
