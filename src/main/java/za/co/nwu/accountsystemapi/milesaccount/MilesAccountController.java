@@ -1,14 +1,19 @@
 package za.co.nwu.accountsystemapi.milesaccount;
 
 import io.swagger.annotations.ApiOperation;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+import za.co.nwu.accountsystemapi.exception.ApiRequestException;
 
 import java.util.List;
 
 @RestController
 @RequestMapping(path="/api/v1/miles")
 public class MilesAccountController {
+
+    Logger logger = LoggerFactory.getLogger(MilesAccountController.class);
 
     @Autowired
     MilesAccountService milesAccountService;
@@ -21,7 +26,9 @@ public class MilesAccountController {
             responseContainer = "List"
     )
     public List<MilesAccount> getMilesAccounts() {
-        return milesAccountService.getMilesAccounts();
+        logger.trace("Get Miles Account(s) Fired");
+        throw new ApiRequestException("Oops cannot get all students with custom exception");
+//        return milesAccountService.getMilesAccounts();
     }
 
     @GetMapping("/{id}")
@@ -31,6 +38,7 @@ public class MilesAccountController {
             response=MilesAccount.class
     )
     public MilesAccount getMilesAccount(@PathVariable int id) {
+        logger.trace("Get Miles Account Fired");
         return milesAccountService.getMilesAccount(id);
     }
 
