@@ -2,6 +2,7 @@ package za.co.nwu.accountsystemapi.user;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import za.co.nwu.accountsystemapi.exception.ApiRequestException;
 
 import java.util.List;
 import java.util.Objects;
@@ -17,11 +18,18 @@ public class UserService {
         return userRepository.findAll();
     }
 
+    public User getUserById(int id) {
+        User userById = userRepository.findById(id)
+                .orElseThrow(() -> new ApiRequestException("User with id " + id + " was not found"));
+
+        return userById;
+    }
+
     public User createUser(User user) {
         Optional<User> userByEmail = userRepository.findUserByEmail(user.getEmail());
 
         if(userByEmail.isPresent()) {
-            throw new IllegalStateException("User already exists");
+            throw new ApiRequestException("User already exists");
         }
 
         return userRepository.save(user);

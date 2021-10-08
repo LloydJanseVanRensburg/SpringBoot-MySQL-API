@@ -5,6 +5,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+import za.co.nwu.accountsystemapi.exception.ApiRequestException;
 
 import java.util.List;
 
@@ -56,8 +57,16 @@ public class MilesAccountController {
             notes="Provide User Id in URL params, and miles value to add in the request body",
             response=MilesAccount.class
     )
-    public MilesAccount addMilesToAccount(@PathVariable int id, @RequestBody int milesValue) {
-        return milesAccountService.addMilesToAccount(id, milesValue);
+    public MilesAccount addMilesToAccount(
+            @PathVariable("id") int id,
+            @RequestParam int milesValue,
+            @RequestParam(defaultValue = "false") boolean makeException
+    ) {
+        if(makeException) {
+            throw new ApiRequestException("Checking Custom Error Handling Implementation");
+        } else {
+            return milesAccountService.addMilesToAccount(id, milesValue);
+        }
     }
 
     @PutMapping("/{id}/remove")
@@ -66,7 +75,10 @@ public class MilesAccountController {
             notes="Provide User Id in URL params, and miles value to remove in the request body",
             response=MilesAccount.class
     )
-    public MilesAccount removeMilesFromAccount(@PathVariable int id, @RequestBody int milesValue) {
+    public MilesAccount removeMilesFromAccount(
+            @PathVariable int id,
+            @RequestParam int milesValue
+    ) {
         return milesAccountService.removeMilesFromAccount(id, milesValue);
     }
 
