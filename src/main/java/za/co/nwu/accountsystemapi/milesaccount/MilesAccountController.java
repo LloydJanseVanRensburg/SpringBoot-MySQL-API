@@ -27,7 +27,7 @@ public class MilesAccountController {
             responseContainer = "List"
     )
     public List<MilesAccount> getMilesAccounts() {
-        logger.trace("Get Miles Account(s) Fired");
+        logger.debug("Get Miles Account(s) Controller Fired");
         return milesAccountService.getMilesAccounts();
     }
 
@@ -38,7 +38,7 @@ public class MilesAccountController {
             response=MilesAccount.class
     )
     public MilesAccount getMilesAccount(@PathVariable int id) {
-        logger.trace("Get Miles Account Fired");
+        logger.trace("Get Miles Account Controller Fired");
         return milesAccountService.getMilesAccount(id);
     }
 
@@ -49,6 +49,7 @@ public class MilesAccountController {
             response=MilesAccount.class
     )
     public MilesAccount createMilesAccount(@RequestBody MilesAccount milesAccount ) {
+        logger.debug("Create Miles Account Controller Fired");
         return milesAccountService.createMilesAccount(milesAccount);
     }
 
@@ -64,8 +65,10 @@ public class MilesAccountController {
             @RequestParam(defaultValue = "false") boolean makeException
     ) {
         if(makeException) {
+            logger.error("Add To Miles Controller Fired -> CUSTOM FIELD CAUSED ERROR - THIS WAS ON PURPOSE");
             throw new ApiRequestException("Checking Custom Error Handling Implementation");
         } else {
+            logger.debug("Add Miles To Account Controller Fired");
             return milesAccountService.addMilesToAccount(id, milesValue);
         }
     }
@@ -80,6 +83,7 @@ public class MilesAccountController {
             @PathVariable int id,
             @RequestParam int milesValue
     ) {
+        logger.debug("Remove Miles From Account Controller Fired");
         return milesAccountService.removeMilesFromAccount(id, milesValue);
     }
 
@@ -90,6 +94,7 @@ public class MilesAccountController {
             response=MilesAccount.class
     )
     public void deleteMilesAccount(@PathVariable int id) {
+        logger.debug("Delete Miles Account Controller Fired");
         milesAccountService.deleteMilesAccount(id);
     }
 }

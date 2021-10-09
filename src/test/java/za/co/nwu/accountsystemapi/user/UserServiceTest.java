@@ -79,7 +79,7 @@ class UserServiceTest {
     }
 
     @Test
-    void checkIfUserAlreadyExists() {
+    void canNotCreateUser() {
         // given
         String email = "lloyd@gmail.com";
         User user = new User(

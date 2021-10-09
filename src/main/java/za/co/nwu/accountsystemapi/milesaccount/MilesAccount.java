@@ -16,6 +16,12 @@ public class MilesAccount {
     public MilesAccount() {
     }
 
+    public MilesAccount(Integer id, Integer userId, Integer totalMilesCount) {
+        this.id = id;
+        this.userId = userId;
+        this.totalMilesCount = totalMilesCount;
+    }
+
     public MilesAccount(Integer userId, Integer totalMilesCount) {
         this.userId = userId;
         this.totalMilesCount = totalMilesCount;
