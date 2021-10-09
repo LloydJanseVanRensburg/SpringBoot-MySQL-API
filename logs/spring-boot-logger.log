@@ -12,3 +12,7 @@
 2021-10-09 15:21:57,932 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.10, Spring v5.3.9
 2021-10-09 15:21:57,932 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
 2021-10-09 15:22:02,734 INFO org.springframework.boot.StartupInfoLogger [main] Started AccountSystemApiApplication in 5.297 seconds (JVM running for 5.74)
+2021-10-09 15:26:25,177 INFO org.springframework.boot.StartupInfoLogger [main] Starting UserRepositoryTest using Java 11.0.12 on Lloyd-PC with PID 14480 (started by User-Pc in C:\Users\User-Pc\Desktop\account-system-api)
+2021-10-09 15:26:25,177 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-10-09 15:26:25,177 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-09 15:26:28,283 INFO org.springframework.boot.StartupInfoLogger [main] Started UserRepositoryTest in 3.596 seconds (JVM running for 4.686)
