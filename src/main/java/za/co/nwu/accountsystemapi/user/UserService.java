@@ -14,15 +14,17 @@ public class UserService {
     @Autowired
     private UserRepository userRepository;
 
+    public UserService(UserRepository userRepository) {
+        this.userRepository = userRepository;
+    }
+
     public List<User> getUsers() {
         return userRepository.findAll();
     }
 
     public User getUserById(int id) {
-        User userById = userRepository.findById(id)
+        return userRepository.findById(id)
                 .orElseThrow(() -> new ApiRequestException("User with id " + id + " was not found"));
-
-        return userById;
     }
 
     public User createUser(User user) {
@@ -36,7 +38,8 @@ public class UserService {
     }
 
     public User updateUser(int userId, User user) {
-        User currentUser = userRepository.findById(userId).orElseThrow(()-> new IllegalStateException("User not found"));
+        User currentUser = userRepository.findById(userId)
+                .orElseThrow(()-> new ApiRequestException("User not found"));
 
         if(!Objects.equals(user.getEmail(), currentUser.getEmail())) {
             currentUser.setEmail(user.getEmail());
@@ -54,6 +57,12 @@ public class UserService {
     }
 
     public void removeUserWithId(int id) {
+        Optional<User> foundUser = userRepository.findById(id);
+
+        if(!foundUser.isPresent()) {
+            throw new ApiRequestException("User not found");
+        }
+
         userRepository.deleteById(id);
     }
 }
