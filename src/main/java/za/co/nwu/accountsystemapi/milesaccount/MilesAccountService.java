@@ -11,6 +11,10 @@ public class MilesAccountService {
     @Autowired
     MilesAccountRepository milesAccountRepository;
 
+    public MilesAccountService(MilesAccountRepository milesAccountRepository) {
+        this.milesAccountRepository = milesAccountRepository;
+    }
+
     public List<MilesAccount> getMilesAccounts()
     {
         return milesAccountRepository.findAll();
