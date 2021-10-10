@@ -98,3 +98,50 @@
 2021-10-10 20:18:40,741 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
 2021-10-10 20:18:45,709 INFO org.springframework.boot.StartupInfoLogger [main] Started AccountSystemApiApplication in 5.501 seconds (JVM running for 5.962)
 2021-10-10 20:18:59,171 DEBUG za.co.nwu.accountsystemapi.activereward.ActiveRewardController [http-nio-8080-exec-9] Get All Active Rewards Controller Fired
+2021-10-10 20:39:14,511 INFO org.springframework.boot.StartupInfoLogger [main] Starting MilesAccountRepositoryTest using Java 11.0.12 on Lloyd-PC with PID 7864 (started by User-Pc in C:\Users\User-Pc\Desktop\account-system-api)
+2021-10-10 20:39:14,513 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-10-10 20:39:14,515 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-10 20:39:17,870 INFO org.springframework.boot.StartupInfoLogger [main] Started MilesAccountRepositoryTest in 3.873 seconds (JVM running for 5.007)
+2021-10-10 20:42:10,155 INFO org.springframework.boot.StartupInfoLogger [main] Starting AccountSystemApiApplication using Java 11.0.12 on Lloyd-PC with PID 14780 (C:\Users\User-Pc\Desktop\account-system-api\target\classes started by User-Pc in C:\Users\User-Pc\Desktop\account-system-api)
+2021-10-10 20:42:10,155 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-10-10 20:42:10,155 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-10 20:42:15,301 INFO org.springframework.boot.StartupInfoLogger [main] Started AccountSystemApiApplication in 5.66 seconds (JVM running for 6.104)
+2021-10-10 20:43:51,519 INFO org.springframework.boot.StartupInfoLogger [main] Starting AccountSystemApiApplication using Java 11.0.12 on Lloyd-PC with PID 8388 (C:\Users\User-Pc\Desktop\account-system-api\target\classes started by User-Pc in C:\Users\User-Pc\Desktop\account-system-api)
+2021-10-10 20:43:51,519 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-10-10 20:43:51,519 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-10 20:44:05,224 INFO org.springframework.boot.StartupInfoLogger [main] Starting AccountSystemApiApplication using Java 11.0.12 on Lloyd-PC with PID 13360 (C:\Users\User-Pc\Desktop\account-system-api\target\classes started by User-Pc in C:\Users\User-Pc\Desktop\account-system-api)
+2021-10-10 20:44:05,224 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-10-10 20:44:05,224 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-10 20:44:28,665 INFO org.springframework.boot.StartupInfoLogger [main] Starting AccountSystemApiApplication using Java 11.0.12 on Lloyd-PC with PID 13708 (C:\Users\User-Pc\Desktop\account-system-api\target\classes started by User-Pc in C:\Users\User-Pc\Desktop\account-system-api)
+2021-10-10 20:44:28,665 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-10-10 20:44:28,665 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-10 20:44:33,539 INFO org.springframework.boot.StartupInfoLogger [main] Started AccountSystemApiApplication in 5.398 seconds (JVM running for 5.851)
+2021-10-10 20:58:21,485 DEBUG za.co.nwu.accountsystemapi.milesaccount.MilesAccountController [http-nio-8080-exec-9] Get Miles Account(s) Controller Fired
+2021-10-10 20:58:55,408 TRACE za.co.nwu.accountsystemapi.milesaccount.MilesAccountController [http-nio-8080-exec-10] Get Miles Account Controller Fired
+2021-10-10 20:59:50,594 DEBUG za.co.nwu.accountsystemapi.milesaccount.MilesAccountController [http-nio-8080-exec-1] Add Miles To Account Controller Fired
+2021-10-10 21:00:04,284 TRACE za.co.nwu.accountsystemapi.milesaccount.MilesAccountController [http-nio-8080-exec-2] Get Miles Account Controller Fired
+2021-10-10 21:00:23,704 DEBUG za.co.nwu.accountsystemapi.milesaccount.MilesAccountController [http-nio-8080-exec-3] Remove Miles From Account Controller Fired
+2021-10-10 21:00:49,185 TRACE za.co.nwu.accountsystemapi.milesaccount.MilesAccountController [http-nio-8080-exec-4] Get Miles Account Controller Fired
+2021-10-10 21:00:55,063 DEBUG za.co.nwu.accountsystemapi.milesaccount.MilesAccountController [http-nio-8080-exec-5] Remove Miles From Account Controller Fired
+2021-10-10 21:01:47,011 INFO org.springframework.boot.StartupInfoLogger [main] Starting AccountSystemApiApplication using Java 11.0.12 on Lloyd-PC with PID 12700 (C:\Users\User-Pc\Desktop\account-system-api\target\classes started by User-Pc in C:\Users\User-Pc\Desktop\account-system-api)
+2021-10-10 21:01:47,014 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-10-10 21:01:47,015 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-10 21:01:52,153 INFO org.springframework.boot.StartupInfoLogger [main] Started AccountSystemApiApplication in 5.669 seconds (JVM running for 6.131)
+2021-10-10 21:02:07,287 DEBUG za.co.nwu.accountsystemapi.milesaccount.MilesAccountController [http-nio-8080-exec-1] Remove Miles From Account Controller Fired
+2021-10-10 21:02:18,911 TRACE za.co.nwu.accountsystemapi.milesaccount.MilesAccountController [http-nio-8080-exec-2] Get Miles Account Controller Fired
+2021-10-10 21:02:30,963 DEBUG za.co.nwu.accountsystemapi.activereward.ActiveRewardController [http-nio-8080-exec-3] Get All Active Rewards Controller Fired
+2021-10-10 21:03:09,896 DEBUG za.co.nwu.accountsystemapi.activereward.ActiveRewardController [http-nio-8080-exec-4] Create Active Reward Controller Fired
+2021-10-10 21:03:51,861 DEBUG za.co.nwu.accountsystemapi.activereward.ActiveRewardController [http-nio-8080-exec-5] Create Active Reward Controller Fired
+2021-10-10 21:04:23,774 DEBUG za.co.nwu.accountsystemapi.activereward.ActiveRewardController [http-nio-8080-exec-6] Create Active Reward Controller Fired
+2021-10-10 21:04:43,667 TRACE za.co.nwu.accountsystemapi.milesaccount.MilesAccountController [http-nio-8080-exec-7] Get Miles Account Controller Fired
+2021-10-10 21:04:59,358 DEBUG za.co.nwu.accountsystemapi.rewardtransaction.RewardTransactionController [http-nio-8080-exec-8] Get All Reward Transactions Controller Fired
+2021-10-10 21:05:15,623 DEBUG za.co.nwu.accountsystemapi.activereward.ActiveRewardController [http-nio-8080-exec-9] Get All Active Rewards Controller Fired
+2021-10-10 21:05:39,064 TRACE za.co.nwu.accountsystemapi.milesaccount.MilesAccountController [http-nio-8080-exec-10] Get Miles Account Controller Fired
+2021-10-10 21:06:00,221 DEBUG za.co.nwu.accountsystemapi.rewardtransaction.RewardTransactionController [http-nio-8080-exec-1] Create Reward Transaction Controller Fired
+2021-10-10 21:06:09,100 DEBUG za.co.nwu.accountsystemapi.activereward.ActiveRewardController [http-nio-8080-exec-2] Get All Active Rewards Controller Fired
+2021-10-10 21:06:21,592 DEBUG za.co.nwu.accountsystemapi.rewardtransaction.RewardTransactionController [http-nio-8080-exec-3] Create Reward Transaction Controller Fired
+2021-10-10 21:06:33,556 DEBUG za.co.nwu.accountsystemapi.rewardtransaction.RewardTransactionController [http-nio-8080-exec-4] Get All Reward Transactions Controller Fired
+2021-10-10 21:06:48,449 TRACE za.co.nwu.accountsystemapi.milesaccount.MilesAccountController [http-nio-8080-exec-5] Get Miles Account Controller Fired
+2021-10-10 21:09:42,934 DEBUG za.co.nwu.accountsystemapi.milesaccount.MilesAccountController [http-nio-8080-exec-7] Add Miles To Account Controller Fired
+2021-10-10 21:10:00,852 TRACE za.co.nwu.accountsystemapi.milesaccount.MilesAccountController [http-nio-8080-exec-8] Get Miles Account Controller Fired
+2021-10-10 21:10:28,129 DEBUG za.co.nwu.accountsystemapi.milesaccount.MilesAccountController [http-nio-8080-exec-9] Remove Miles From Account Controller Fired

@@ -58,7 +58,7 @@ public class MilesAccountService {
 
         int sum = currentMilesAccount.getTotalMilesCount() - milesValue;
 
-        if(sum > 0) {
+        if(sum < 0) {
             throw new IllegalStateException("Max miles balance reached");
         }
 
