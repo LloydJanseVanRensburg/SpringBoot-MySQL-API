@@ -56,7 +56,7 @@ public class RewardTransactionController {
     @PutMapping("/{id}")
     @ApiOperation(
             value="Create a new reward transaction",
-            notes = "Provide request body with reward trabsaction object",
+            notes = "Provide request body with reward transaction object",
             response= RewardTransaction.class
     )
     public RewardTransaction updateRewardTransaction(
@@ -73,6 +73,7 @@ public class RewardTransactionController {
             notes = "Provide url param containing reward transaction id"
     )
     public void deleteRewardTransaction (@PathVariable int id) {
+        logger.debug("Delete Reward Transaction By Id Controller Fired");
         rewardTransactionService.deleteRewardTransaction(id);
     }
 
