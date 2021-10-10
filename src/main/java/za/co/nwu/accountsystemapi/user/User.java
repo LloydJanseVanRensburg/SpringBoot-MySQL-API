@@ -1,5 +1,7 @@
 package za.co.nwu.accountsystemapi.user;
 
+import za.co.nwu.accountsystemapi.milesaccount.MilesAccount;
+
 import javax.persistence.*;
 
 @Entity(name = "User")
@@ -42,6 +44,9 @@ public class User {
     )
     private String email;
 
+    @OneToOne
+    private MilesAccount userMilesAccount;
+
     public User() {}
 
     public User(Integer id, String firstName, String lastName, String email) {
@@ -55,6 +60,14 @@ public class User {
         this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;
+    }
+
+    public MilesAccount getUserMilesAccount() {
+        return userMilesAccount;
+    }
+
+    public void setUserMilesAccount(MilesAccount userMilesAccount) {
+        this.userMilesAccount = userMilesAccount;
     }
 
     public void setEmail(String email) {
