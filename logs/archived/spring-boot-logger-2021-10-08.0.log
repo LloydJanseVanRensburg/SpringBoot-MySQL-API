@@ -1,0 +1,125 @@
+2021-10-08 14:16:31,857 INFO org.springframework.boot.StartupInfoLogger [main] Starting AccountSystemApiApplication using Java 11.0.12 on Lloyd-PC with PID 11904 (C:\Users\User-Pc\Desktop\account-system-api\target\classes started by User-Pc in C:\Users\User-Pc\Desktop\account-system-api)
+2021-10-08 14:16:31,860 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-10-08 14:16:31,860 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-08 14:16:36,762 INFO org.springframework.boot.StartupInfoLogger [main] Started AccountSystemApiApplication in 5.448 seconds (JVM running for 5.915)
+2021-10-08 14:20:20,874 TRACE za.co.nwu.accountsystemapi.milesaccount.MilesAccountController [http-nio-8080-exec-1] Get Miles Account(s) Fired
+2021-10-08 14:26:18,561 INFO org.springframework.boot.StartupInfoLogger [main] Starting AccountSystemApiApplication using Java 11.0.12 on Lloyd-PC with PID 3516 (C:\Users\User-Pc\Desktop\account-system-api\target\classes started by User-Pc in C:\Users\User-Pc\Desktop\account-system-api)
+2021-10-08 14:26:18,564 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-10-08 14:26:18,564 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-08 14:26:23,423 INFO org.springframework.boot.StartupInfoLogger [main] Started AccountSystemApiApplication in 5.396 seconds (JVM running for 5.881)
+2021-10-08 14:26:29,876 TRACE za.co.nwu.accountsystemapi.milesaccount.MilesAccountController [http-nio-8080-exec-2] Get Miles Account(s) Fired
+2021-10-08 14:28:46,678 INFO org.springframework.boot.StartupInfoLogger [main] Starting AccountSystemApiApplication using Java 11.0.12 on Lloyd-PC with PID 18564 (C:\Users\User-Pc\Desktop\account-system-api\target\classes started by User-Pc in C:\Users\User-Pc\Desktop\account-system-api)
+2021-10-08 14:28:46,681 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-10-08 14:28:46,682 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-08 14:28:51,295 INFO org.springframework.boot.StartupInfoLogger [main] Started AccountSystemApiApplication in 5.129 seconds (JVM running for 5.578)
+2021-10-08 14:32:33,201 INFO org.springframework.boot.StartupInfoLogger [main] Starting AccountSystemApiApplication using Java 11.0.12 on Lloyd-PC with PID 16820 (C:\Users\User-Pc\Desktop\account-system-api\target\classes started by User-Pc in C:\Users\User-Pc\Desktop\account-system-api)
+2021-10-08 14:32:33,204 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-10-08 14:32:33,205 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-08 14:32:37,867 INFO org.springframework.boot.StartupInfoLogger [main] Started AccountSystemApiApplication in 5.17 seconds (JVM running for 5.623)
+2021-10-08 14:33:57,141 TRACE za.co.nwu.accountsystemapi.milesaccount.MilesAccountController [http-nio-8080-exec-5] Get Miles Account(s) Fired
+2021-10-08 14:34:51,462 INFO org.springframework.boot.StartupInfoLogger [main] Starting AccountSystemApiApplication using Java 11.0.12 on Lloyd-PC with PID 15732 (C:\Users\User-Pc\Desktop\account-system-api\target\classes started by User-Pc in C:\Users\User-Pc\Desktop\account-system-api)
+2021-10-08 14:34:51,465 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-10-08 14:34:51,465 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-08 14:34:56,258 INFO org.springframework.boot.StartupInfoLogger [main] Started AccountSystemApiApplication in 5.33 seconds (JVM running for 5.785)
+2021-10-08 14:36:37,165 INFO org.springframework.boot.StartupInfoLogger [main] Starting AccountSystemApiApplication using Java 11.0.12 on Lloyd-PC with PID 9972 (C:\Users\User-Pc\Desktop\account-system-api\target\classes started by User-Pc in C:\Users\User-Pc\Desktop\account-system-api)
+2021-10-08 14:36:37,169 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-10-08 14:36:37,170 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-08 14:36:41,860 INFO org.springframework.boot.StartupInfoLogger [main] Started AccountSystemApiApplication in 5.2 seconds (JVM running for 5.651)
+2021-10-08 14:38:43,213 INFO org.springframework.boot.StartupInfoLogger [main] Starting AccountSystemApiApplication using Java 11.0.12 on Lloyd-PC with PID 7892 (C:\Users\User-Pc\Desktop\account-system-api\target\classes started by User-Pc in C:\Users\User-Pc\Desktop\account-system-api)
+2021-10-08 14:38:43,216 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-10-08 14:38:43,216 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-08 14:38:47,961 INFO org.springframework.boot.StartupInfoLogger [main] Started AccountSystemApiApplication in 5.263 seconds (JVM running for 5.719)
+2021-10-08 14:41:22,951 INFO org.springframework.boot.StartupInfoLogger [main] Starting AccountSystemApiApplication using Java 11.0.12 on Lloyd-PC with PID 16860 (C:\Users\User-Pc\Desktop\account-system-api\target\classes started by User-Pc in C:\Users\User-Pc\Desktop\account-system-api)
+2021-10-08 14:41:22,954 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-10-08 14:41:22,954 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-08 14:41:27,665 INFO org.springframework.boot.StartupInfoLogger [main] Started AccountSystemApiApplication in 5.237 seconds (JVM running for 5.694)
+2021-10-08 14:43:52,917 INFO org.springframework.boot.StartupInfoLogger [main] Starting AccountSystemApiApplication using Java 11.0.12 on Lloyd-PC with PID 4796 (C:\Users\User-Pc\Desktop\account-system-api\target\classes started by User-Pc in C:\Users\User-Pc\Desktop\account-system-api)
+2021-10-08 14:43:52,920 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-10-08 14:43:52,921 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-08 14:43:57,666 INFO org.springframework.boot.StartupInfoLogger [main] Started AccountSystemApiApplication in 5.274 seconds (JVM running for 5.738)
+2021-10-08 14:46:52,127 INFO org.springframework.boot.StartupInfoLogger [main] Starting AccountSystemApiApplication using Java 11.0.12 on Lloyd-PC with PID 11848 (C:\Users\User-Pc\Desktop\account-system-api\target\classes started by User-Pc in C:\Users\User-Pc\Desktop\account-system-api)
+2021-10-08 14:46:52,130 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-10-08 14:46:52,130 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-08 14:46:56,841 INFO org.springframework.boot.StartupInfoLogger [main] Started AccountSystemApiApplication in 5.234 seconds (JVM running for 5.698)
+2021-10-08 14:48:47,942 INFO org.springframework.boot.StartupInfoLogger [main] Starting AccountSystemApiApplication using Java 11.0.12 on Lloyd-PC with PID 13216 (C:\Users\User-Pc\Desktop\account-system-api\target\classes started by User-Pc in C:\Users\User-Pc\Desktop\account-system-api)
+2021-10-08 14:48:47,945 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-10-08 14:48:47,945 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-08 14:48:52,694 INFO org.springframework.boot.StartupInfoLogger [main] Started AccountSystemApiApplication in 5.262 seconds (JVM running for 5.71)
+2021-10-08 14:49:07,446 TRACE za.co.nwu.accountsystemapi.milesaccount.MilesAccountController [http-nio-8080-exec-4] Get Miles Account Fired
+2021-10-08 14:50:03,096 TRACE za.co.nwu.accountsystemapi.milesaccount.MilesAccountController [http-nio-8080-exec-5] Get Miles Account(s) Fired
+2021-10-08 14:51:57,970 INFO org.springframework.boot.StartupInfoLogger [main] Starting AccountSystemApiApplication using Java 11.0.12 on Lloyd-PC with PID 9732 (C:\Users\User-Pc\Desktop\account-system-api\target\classes started by User-Pc in C:\Users\User-Pc\Desktop\account-system-api)
+2021-10-08 14:51:57,973 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-10-08 14:51:57,973 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-08 14:52:02,677 INFO org.springframework.boot.StartupInfoLogger [main] Started AccountSystemApiApplication in 5.215 seconds (JVM running for 5.667)
+2021-10-08 14:52:27,074 INFO org.springframework.boot.StartupInfoLogger [main] Starting AccountSystemApiApplication using Java 11.0.12 on Lloyd-PC with PID 14824 (C:\Users\User-Pc\Desktop\account-system-api\target\classes started by User-Pc in C:\Users\User-Pc\Desktop\account-system-api)
+2021-10-08 14:52:27,077 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-10-08 14:52:27,078 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-08 14:52:31,806 INFO org.springframework.boot.StartupInfoLogger [main] Started AccountSystemApiApplication in 5.254 seconds (JVM running for 5.724)
+2021-10-08 14:52:34,349 TRACE za.co.nwu.accountsystemapi.user.UserController [http-nio-8080-exec-2] This is the id1
+2021-10-08 14:58:42,918 INFO org.springframework.boot.StartupInfoLogger [main] Starting AccountSystemApiApplication using Java 11.0.12 on Lloyd-PC with PID 9340 (C:\Users\User-Pc\Desktop\account-system-api\target\classes started by User-Pc in C:\Users\User-Pc\Desktop\account-system-api)
+2021-10-08 14:58:42,921 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-10-08 14:58:42,921 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-08 14:58:47,692 INFO org.springframework.boot.StartupInfoLogger [main] Started AccountSystemApiApplication in 5.278 seconds (JVM running for 5.727)
+2021-10-08 15:00:21,964 INFO org.springframework.boot.StartupInfoLogger [main] Starting AccountSystemApiApplication using Java 11.0.12 on Lloyd-PC with PID 18468 (C:\Users\User-Pc\Desktop\account-system-api\target\classes started by User-Pc in C:\Users\User-Pc\Desktop\account-system-api)
+2021-10-08 15:00:21,967 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-10-08 15:00:21,968 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-08 15:00:26,663 INFO org.springframework.boot.StartupInfoLogger [main] Started AccountSystemApiApplication in 5.215 seconds (JVM running for 5.668)
+2021-10-08 15:00:59,305 INFO org.springframework.boot.StartupInfoLogger [main] Starting AccountSystemApiApplication using Java 11.0.12 on Lloyd-PC with PID 3176 (C:\Users\User-Pc\Desktop\account-system-api\target\classes started by User-Pc in C:\Users\User-Pc\Desktop\account-system-api)
+2021-10-08 15:00:59,309 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-10-08 15:00:59,309 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-08 15:01:04,076 INFO org.springframework.boot.StartupInfoLogger [main] Started AccountSystemApiApplication in 5.297 seconds (JVM running for 5.759)
+2021-10-08 15:01:43,486 INFO org.springframework.boot.StartupInfoLogger [main] Starting AccountSystemApiApplication using Java 11.0.12 on Lloyd-PC with PID 2824 (C:\Users\User-Pc\Desktop\account-system-api\target\classes started by User-Pc in C:\Users\User-Pc\Desktop\account-system-api)
+2021-10-08 15:01:43,489 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-10-08 15:01:43,490 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-08 15:01:48,101 INFO org.springframework.boot.StartupInfoLogger [main] Started AccountSystemApiApplication in 5.126 seconds (JVM running for 5.582)
+2021-10-08 15:03:18,957 INFO org.springframework.boot.StartupInfoLogger [main] Starting AccountSystemApiApplication using Java 11.0.12 on Lloyd-PC with PID 15004 (C:\Users\User-Pc\Desktop\account-system-api\target\classes started by User-Pc in C:\Users\User-Pc\Desktop\account-system-api)
+2021-10-08 15:03:18,960 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-10-08 15:03:18,961 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-08 15:03:23,668 INFO org.springframework.boot.StartupInfoLogger [main] Started AccountSystemApiApplication in 5.225 seconds (JVM running for 5.681)
+2021-10-08 15:04:29,085 INFO org.springframework.boot.StartupInfoLogger [main] Starting AccountSystemApiApplication using Java 11.0.12 on Lloyd-PC with PID 16288 (C:\Users\User-Pc\Desktop\account-system-api\target\classes started by User-Pc in C:\Users\User-Pc\Desktop\account-system-api)
+2021-10-08 15:04:29,088 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-10-08 15:04:29,089 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-08 15:04:33,900 INFO org.springframework.boot.StartupInfoLogger [main] Started AccountSystemApiApplication in 5.336 seconds (JVM running for 5.788)
+2021-10-08 16:02:50,972 INFO org.springframework.boot.StartupInfoLogger [main] Starting AccountSystemApiApplication using Java 11.0.12 on Lloyd-PC with PID 15444 (C:\Users\User-Pc\Desktop\account-system-api\target\classes started by User-Pc in C:\Users\User-Pc\Desktop\account-system-api)
+2021-10-08 16:02:50,977 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-10-08 16:02:50,978 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-08 16:02:55,914 INFO org.springframework.boot.StartupInfoLogger [main] Started AccountSystemApiApplication in 5.548 seconds (JVM running for 6.05)
+2021-10-08 16:03:12,447 TRACE za.co.nwu.accountsystemapi.milesaccount.MilesAccountController [http-nio-8080-exec-8] Get Miles Account(s) Fired
+2021-10-08 16:03:29,948 TRACE za.co.nwu.accountsystemapi.milesaccount.MilesAccountController [http-nio-8080-exec-10] Get Miles Account(s) Fired
+2021-10-08 17:46:21,351 INFO org.springframework.boot.StartupInfoLogger [main] Starting AccountSystemApiApplication using Java 11.0.12 on Lloyd-PC with PID 12264 (C:\Users\User-Pc\Desktop\account-system-api\target\classes started by User-Pc in C:\Users\User-Pc\Desktop\account-system-api)
+2021-10-08 17:46:21,354 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-10-08 17:46:21,355 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-08 17:46:26,239 INFO org.springframework.boot.StartupInfoLogger [main] Started AccountSystemApiApplication in 5.41 seconds (JVM running for 5.877)
+2021-10-08 20:39:48,497 INFO org.springframework.boot.StartupInfoLogger [main] Starting AccountSystemApiApplication using Java 11.0.12 on Lloyd-PC with PID 15696 (C:\Users\User-Pc\Desktop\account-system-api\target\classes started by User-Pc in C:\Users\User-Pc\Desktop\account-system-api)
+2021-10-08 20:39:48,500 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-10-08 20:39:48,500 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-08 20:39:53,414 INFO org.springframework.boot.StartupInfoLogger [main] Started AccountSystemApiApplication in 5.437 seconds (JVM running for 5.896)
+2021-10-08 20:40:44,196 INFO org.springframework.boot.StartupInfoLogger [main] Starting AccountSystemApiApplication using Java 11.0.12 on Lloyd-PC with PID 15828 (C:\Users\User-Pc\Desktop\account-system-api\target\classes started by User-Pc in C:\Users\User-Pc\Desktop\account-system-api)
+2021-10-08 20:40:44,199 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-10-08 20:40:44,200 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-08 20:40:48,937 INFO org.springframework.boot.StartupInfoLogger [main] Started AccountSystemApiApplication in 5.251 seconds (JVM running for 5.702)
+2021-10-08 20:42:48,378 INFO org.springframework.boot.StartupInfoLogger [main] Starting AccountSystemApiApplication using Java 11.0.12 on Lloyd-PC with PID 12784 (C:\Users\User-Pc\Desktop\account-system-api\target\classes started by User-Pc in C:\Users\User-Pc\Desktop\account-system-api)
+2021-10-08 20:42:48,381 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-10-08 20:42:48,382 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-08 20:42:53,173 INFO org.springframework.boot.StartupInfoLogger [main] Started AccountSystemApiApplication in 5.299 seconds (JVM running for 5.762)
+2021-10-08 20:44:06,075 INFO org.springframework.boot.StartupInfoLogger [main] Starting AccountSystemApiApplication using Java 11.0.12 on Lloyd-PC with PID 13760 (C:\Users\User-Pc\Desktop\account-system-api\target\classes started by User-Pc in C:\Users\User-Pc\Desktop\account-system-api)
+2021-10-08 20:44:06,079 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-10-08 20:44:06,079 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-08 20:44:10,808 INFO org.springframework.boot.StartupInfoLogger [main] Started AccountSystemApiApplication in 5.251 seconds (JVM running for 5.734)
+2021-10-08 20:44:15,915 TRACE za.co.nwu.accountsystemapi.milesaccount.MilesAccountController [http-nio-8080-exec-9] Get Miles Account(s) Fired
+2021-10-08 20:51:45,197 INFO org.springframework.boot.StartupInfoLogger [main] Starting AccountSystemApiApplication using Java 11.0.12 on Lloyd-PC with PID 6656 (C:\Users\User-Pc\Desktop\account-system-api\target\classes started by User-Pc in C:\Users\User-Pc\Desktop\account-system-api)
+2021-10-08 20:51:45,201 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-10-08 20:51:45,201 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-08 20:51:50,216 INFO org.springframework.boot.StartupInfoLogger [main] Started AccountSystemApiApplication in 5.559 seconds (JVM running for 6.046)
+2021-10-08 21:15:58,556 INFO org.springframework.boot.StartupInfoLogger [main] Starting UserRepositoryTest using Java 11.0.12 on Lloyd-PC with PID 13268 (started by User-Pc in C:\Users\User-Pc\Desktop\account-system-api)
+2021-10-08 21:15:58,558 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-10-08 21:15:58,561 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-08 21:16:01,660 INFO org.springframework.boot.StartupInfoLogger [main] Started UserRepositoryTest in 3.609 seconds (JVM running for 4.636)
+2021-10-08 21:18:43,552 INFO org.springframework.boot.StartupInfoLogger [main] Starting UserRepositoryTest using Java 11.0.12 on Lloyd-PC with PID 16572 (started by User-Pc in C:\Users\User-Pc\Desktop\account-system-api)
+2021-10-08 21:18:43,554 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-10-08 21:18:43,556 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-08 21:18:46,513 INFO org.springframework.boot.StartupInfoLogger [main] Started UserRepositoryTest in 3.461 seconds (JVM running for 4.491)
+2021-10-08 21:19:29,954 INFO org.springframework.boot.StartupInfoLogger [main] Starting UserRepositoryTest using Java 11.0.12 on Lloyd-PC with PID 8884 (started by User-Pc in C:\Users\User-Pc\Desktop\account-system-api)
+2021-10-08 21:19:29,957 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-10-08 21:19:29,959 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-08 21:19:33,054 INFO org.springframework.boot.StartupInfoLogger [main] Started UserRepositoryTest in 3.598 seconds (JVM running for 4.622)

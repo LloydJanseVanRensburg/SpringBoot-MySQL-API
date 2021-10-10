@@ -3,7 +3,7 @@ package za.co.nwu.accountsystemapi.milesaccount;
 import javax.persistence.*;
 
 @Entity
-@Table
+@Table(name = "miles_account")
 public class MilesAccount {
 
     @Id
@@ -13,24 +13,40 @@ public class MilesAccount {
     private Integer userId;
     private Integer totalMilesCount;
 
-    public Integer getId() {
-        return id;
+    public MilesAccount() {
     }
 
-    public void setId(Integer id) {
+    public MilesAccount(Integer id, Integer userId, Integer totalMilesCount) {
         this.id = id;
+        this.userId = userId;
+        this.totalMilesCount = totalMilesCount;
+    }
+
+    public MilesAccount(Integer userId, Integer totalMilesCount) {
+        this.userId = userId;
+        this.totalMilesCount = totalMilesCount;
+    }
+
+    // Getters
+    public Integer getId() {
+        return id;
     }
 
     public Integer getUserId() {
         return userId;
     }
 
-    public void setUserId(Integer userId) {
-        this.userId = userId;
-    }
-
     public Integer getTotalMilesCount() {
         return totalMilesCount;
+    }
+
+    // Setters
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public void setUserId(Integer userId) {
+        this.userId = userId;
     }
 
     public void setTotalMilesCount(Integer totalMilesCount) {

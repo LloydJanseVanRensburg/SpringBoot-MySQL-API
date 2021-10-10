@@ -146,3 +146,16 @@
 2021-10-10 21:10:00,852 TRACE za.co.nwu.accountsystemapi.milesaccount.MilesAccountController [http-nio-8080-exec-8] Get Miles Account Controller Fired
 2021-10-10 21:10:28,129 DEBUG za.co.nwu.accountsystemapi.milesaccount.MilesAccountController [http-nio-8080-exec-9] Remove Miles From Account Controller Fired
 2021-10-10 21:13:06,200 TRACE za.co.nwu.accountsystemapi.milesaccount.MilesAccountController [http-nio-8080-exec-1] Get Miles Account Controller Fired
+<<<<<<< HEAD
+=======
+2021-10-10 21:15:45,980 INFO org.springframework.boot.StartupInfoLogger [main] Starting MilesAccountRepositoryTest using Java 11.0.12 on Lloyd-PC with PID 7128 (started by User-Pc in C:\Users\User-Pc\Desktop\account-system-api)
+2021-10-10 21:15:45,981 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-10-10 21:15:45,984 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-10 21:15:49,054 INFO org.springframework.boot.StartupInfoLogger [main] Started MilesAccountRepositoryTest in 3.552 seconds (JVM running for 5.367)
+2021-10-10 21:16:22,222 ERROR za.co.nwu.accountsystemapi.milesaccount.MilesAccountController [http-nio-8080-exec-2] Add To Miles Controller Fired -> CUSTOM FIELD CAUSED ERROR - THIS WAS ON PURPOSE
+2021-10-10 21:17:48,313 INFO org.springframework.boot.StartupInfoLogger [main] Starting AccountSystemApiApplication using Java 11.0.12 on Lloyd-PC with PID 14196 (C:\Users\User-Pc\Desktop\account-system-api\target\classes started by User-Pc in C:\Users\User-Pc\Desktop\account-system-api)
+2021-10-10 21:17:48,316 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-10-10 21:17:48,316 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-10 21:17:53,252 INFO org.springframework.boot.StartupInfoLogger [main] Started AccountSystemApiApplication in 5.446 seconds (JVM running for 5.916)
+2021-10-10 21:22:27,925 DEBUG za.co.nwu.accountsystemapi.activereward.ActiveRewardController [http-nio-8080-exec-1] Get All Active Rewards Controller Fired
+>>>>>>> 30431ffb2e2bcd15bf941a2a7a26ea8792d8f6c5
