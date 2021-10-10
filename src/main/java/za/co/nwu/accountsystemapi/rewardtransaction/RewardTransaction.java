@@ -3,14 +3,13 @@ package za.co.nwu.accountsystemapi.rewardtransaction;
 import javax.persistence.*;
 
 @Entity
-@Table
+@Table(name = "reward_transaction")
 public class RewardTransaction {
 
     @Id
     @SequenceGenerator(name="rewardtransaction_sequence", sequenceName="rewardtransaction_sequence", allocationSize=1)
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator="rewardtransaction_sequence")
     private int id;
-
     private int rewardId;
     private int userId;
     private int costInMiles;

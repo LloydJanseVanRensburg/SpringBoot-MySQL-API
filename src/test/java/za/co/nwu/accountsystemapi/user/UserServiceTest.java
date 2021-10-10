@@ -55,30 +55,6 @@ class UserServiceTest {
     }
 
     @Test
-    void canCreateUser() {
-        // given
-        String email = "lloyd@gmail.com";
-        User user = new User(
-               "Lloyd",
-               "JvR",
-               email
-        );
-
-        // when
-        userServiceTest.createUser(user);
-
-        // then
-        ArgumentCaptor<User> userArgumentCaptor =
-                ArgumentCaptor.forClass(User.class);
-
-        verify(userRepositoryTest).save(userArgumentCaptor.capture());
-
-        User capturedUser = userArgumentCaptor.getValue();
-
-        assertThat(capturedUser).isEqualTo(user);
-    }
-
-    @Test
     void canNotCreateUser() {
         // given
         String email = "lloyd@gmail.com";

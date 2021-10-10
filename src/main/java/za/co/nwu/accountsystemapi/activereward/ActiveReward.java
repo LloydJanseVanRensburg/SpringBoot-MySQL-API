@@ -3,7 +3,7 @@ package za.co.nwu.accountsystemapi.activereward;
 import javax.persistence.*;
 
 @Entity
-@Table
+@Table(name = "active_reward")
 public class ActiveReward {
 
     @Id

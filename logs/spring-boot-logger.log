@@ -3,3 +3,98 @@
 2021-10-10 09:34:40,972 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
 2021-10-10 09:34:46,496 INFO org.springframework.boot.StartupInfoLogger [main] Started AccountSystemApiApplication in 6.138 seconds (JVM running for 6.639)
 2021-10-10 09:35:46,809 DEBUG za.co.nwu.accountsystemapi.rewardtransaction.RewardTransactionController [http-nio-8080-exec-9] Get All Reward Transactions Controller Fired
+2021-10-10 17:37:05,597 INFO org.springframework.boot.StartupInfoLogger [main] Starting AccountSystemApiApplication using Java 11.0.12 on Lloyd-PC with PID 12832 (C:\Users\User-Pc\Desktop\account-system-api\target\classes started by User-Pc in C:\Users\User-Pc\Desktop\account-system-api)
+2021-10-10 17:37:05,597 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-10-10 17:37:05,597 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-10 17:37:11,359 INFO org.springframework.boot.StartupInfoLogger [main] Started AccountSystemApiApplication in 6.368 seconds (JVM running for 6.869)
+2021-10-10 18:49:14,207 INFO org.springframework.boot.StartupInfoLogger [main] Starting AccountSystemApiApplication using Java 11.0.12 on Lloyd-PC with PID 3188 (C:\Users\User-Pc\Desktop\account-system-api\target\classes started by User-Pc in C:\Users\User-Pc\Desktop\account-system-api)
+2021-10-10 18:49:14,207 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-10-10 18:49:14,207 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-10 18:49:19,377 INFO org.springframework.boot.StartupInfoLogger [main] Started AccountSystemApiApplication in 5.716 seconds (JVM running for 6.179)
+2021-10-10 19:03:29,341 INFO org.springframework.boot.StartupInfoLogger [main] Starting AccountSystemApiApplication using Java 11.0.12 on Lloyd-PC with PID 10868 (C:\Users\User-Pc\Desktop\account-system-api\target\classes started by User-Pc in C:\Users\User-Pc\Desktop\account-system-api)
+2021-10-10 19:03:29,344 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-10-10 19:03:29,344 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-10 19:03:34,459 INFO org.springframework.boot.StartupInfoLogger [main] Started AccountSystemApiApplication in 5.632 seconds (JVM running for 6.077)
+2021-10-10 19:04:00,403 INFO org.springframework.boot.StartupInfoLogger [main] Starting AccountSystemApiApplication using Java 11.0.12 on Lloyd-PC with PID 6484 (C:\Users\User-Pc\Desktop\account-system-api\target\classes started by User-Pc in C:\Users\User-Pc\Desktop\account-system-api)
+2021-10-10 19:04:00,403 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-10-10 19:04:00,403 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-10 19:04:05,470 INFO org.springframework.boot.StartupInfoLogger [main] Started AccountSystemApiApplication in 5.589 seconds (JVM running for 6.036)
+2021-10-10 19:13:17,491 INFO org.springframework.boot.StartupInfoLogger [main] Starting AccountSystemApiApplication using Java 11.0.12 on Lloyd-PC with PID 16840 (C:\Users\User-Pc\Desktop\account-system-api\target\classes started by User-Pc in C:\Users\User-Pc\Desktop\account-system-api)
+2021-10-10 19:13:17,494 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-10-10 19:13:17,495 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-10 19:13:22,414 INFO org.springframework.boot.StartupInfoLogger [main] Started AccountSystemApiApplication in 5.432 seconds (JVM running for 5.886)
+2021-10-10 19:17:52,010 INFO org.springframework.boot.StartupInfoLogger [main] Starting AccountSystemApiApplication using Java 11.0.12 on Lloyd-PC with PID 16244 (C:\Users\User-Pc\Desktop\account-system-api\target\classes started by User-Pc in C:\Users\User-Pc\Desktop\account-system-api)
+2021-10-10 19:17:52,010 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-10-10 19:17:52,010 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-10 19:17:56,969 INFO org.springframework.boot.StartupInfoLogger [main] Started AccountSystemApiApplication in 5.466 seconds (JVM running for 5.932)
+2021-10-10 19:24:00,287 DEBUG za.co.nwu.accountsystemapi.activereward.ActiveRewardController [http-nio-8080-exec-4] Get All Active Rewards Controller Fired
+2021-10-10 19:24:45,758 DEBUG za.co.nwu.accountsystemapi.activereward.ActiveRewardController [http-nio-8080-exec-5] Create Active Reward Controller Fired
+2021-10-10 19:25:29,463 DEBUG za.co.nwu.accountsystemapi.activereward.ActiveRewardController [http-nio-8080-exec-7] Create Active Reward Controller Fired
+2021-10-10 19:26:02,252 DEBUG za.co.nwu.accountsystemapi.activereward.ActiveRewardController [http-nio-8080-exec-8] Create Active Reward Controller Fired
+2021-10-10 19:26:10,876 DEBUG za.co.nwu.accountsystemapi.activereward.ActiveRewardController [http-nio-8080-exec-6] Get All Active Rewards Controller Fired
+2021-10-10 19:26:29,133 DEBUG za.co.nwu.accountsystemapi.milesaccount.MilesAccountController [http-nio-8080-exec-9] Get Miles Account(s) Controller Fired
+2021-10-10 19:29:20,837 INFO org.springframework.boot.StartupInfoLogger [main] Starting AccountSystemApiApplication using Java 11.0.12 on Lloyd-PC with PID 17152 (C:\Users\User-Pc\Desktop\account-system-api\target\classes started by User-Pc in C:\Users\User-Pc\Desktop\account-system-api)
+2021-10-10 19:29:20,837 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-10-10 19:29:20,837 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-10 19:29:25,786 INFO org.springframework.boot.StartupInfoLogger [main] Started AccountSystemApiApplication in 5.476 seconds (JVM running for 5.924)
+2021-10-10 19:31:35,573 DEBUG za.co.nwu.accountsystemapi.milesaccount.MilesAccountController [http-nio-8080-exec-4] Get Miles Account(s) Controller Fired
+2021-10-10 19:36:56,351 DEBUG za.co.nwu.accountsystemapi.milesaccount.MilesAccountController [http-nio-8080-exec-8] Get Miles Account(s) Controller Fired
+2021-10-10 19:37:13,805 DEBUG za.co.nwu.accountsystemapi.milesaccount.MilesAccountController [http-nio-8080-exec-9] Add Miles To Account Controller Fired
+2021-10-10 19:46:47,013 INFO org.springframework.boot.StartupInfoLogger [main] Starting AccountSystemApiApplication using Java 11.0.12 on Lloyd-PC with PID 13012 (C:\Users\User-Pc\Desktop\account-system-api\target\classes started by User-Pc in C:\Users\User-Pc\Desktop\account-system-api)
+2021-10-10 19:46:47,029 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-10-10 19:46:47,029 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-10 19:46:51,985 INFO org.springframework.boot.StartupInfoLogger [main] Started AccountSystemApiApplication in 5.464 seconds (JVM running for 5.91)
+2021-10-10 19:51:18,188 INFO org.springframework.boot.StartupInfoLogger [main] Starting AccountSystemApiApplication using Java 11.0.12 on Lloyd-PC with PID 13768 (C:\Users\User-Pc\Desktop\account-system-api\target\classes started by User-Pc in C:\Users\User-Pc\Desktop\account-system-api)
+2021-10-10 19:51:18,188 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-10-10 19:51:18,188 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-10 19:51:23,158 INFO org.springframework.boot.StartupInfoLogger [main] Started AccountSystemApiApplication in 5.49 seconds (JVM running for 5.937)
+2021-10-10 19:59:56,774 INFO org.springframework.boot.StartupInfoLogger [main] Starting AccountSystemApiApplication using Java 11.0.12 on Lloyd-PC with PID 15808 (C:\Users\User-Pc\Desktop\account-system-api\target\classes started by User-Pc in C:\Users\User-Pc\Desktop\account-system-api)
+2021-10-10 19:59:56,774 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-10-10 19:59:56,774 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-10 20:00:01,647 INFO org.springframework.boot.StartupInfoLogger [main] Started AccountSystemApiApplication in 5.38 seconds (JVM running for 5.827)
+2021-10-10 20:00:12,682 DEBUG za.co.nwu.accountsystemapi.rewardtransaction.RewardTransactionController [http-nio-8080-exec-9] Get All Reward Transactions Controller Fired
+2021-10-10 20:00:29,671 DEBUG za.co.nwu.accountsystemapi.rewardtransaction.RewardTransactionController [http-nio-8080-exec-10] Create Reward Transaction Controller Fired
+2021-10-10 20:01:36,238 DEBUG za.co.nwu.accountsystemapi.rewardtransaction.RewardTransactionController [http-nio-8080-exec-3] Get All Reward Transactions Controller Fired
+2021-10-10 20:02:10,102 INFO org.springframework.boot.StartupInfoLogger [main] Starting AccountSystemApiApplication using Java 11.0.12 on Lloyd-PC with PID 15252 (C:\Users\User-Pc\Desktop\account-system-api\target\classes started by User-Pc in C:\Users\User-Pc\Desktop\account-system-api)
+2021-10-10 20:02:10,102 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-10-10 20:02:10,102 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-10 20:02:15,037 INFO org.springframework.boot.StartupInfoLogger [main] Started AccountSystemApiApplication in 5.436 seconds (JVM running for 5.877)
+2021-10-10 20:02:23,372 DEBUG za.co.nwu.accountsystemapi.rewardtransaction.RewardTransactionController [http-nio-8080-exec-9] Get All Reward Transactions Controller Fired
+2021-10-10 20:02:42,792 DEBUG za.co.nwu.accountsystemapi.rewardtransaction.RewardTransactionController [http-nio-8080-exec-10] Create Reward Transaction Controller Fired
+2021-10-10 20:06:21,901 INFO org.springframework.boot.StartupInfoLogger [main] Starting AccountSystemApiApplication using Java 11.0.12 on Lloyd-PC with PID 15316 (C:\Users\User-Pc\Desktop\account-system-api\target\classes started by User-Pc in C:\Users\User-Pc\Desktop\account-system-api)
+2021-10-10 20:06:21,901 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-10-10 20:06:21,901 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-10 20:06:26,821 INFO org.springframework.boot.StartupInfoLogger [main] Started AccountSystemApiApplication in 5.437 seconds (JVM running for 5.884)
+2021-10-10 20:07:38,171 DEBUG za.co.nwu.accountsystemapi.rewardtransaction.RewardTransactionController [http-nio-8080-exec-1] Create Reward Transaction Controller Fired
+2021-10-10 20:07:43,953 DEBUG za.co.nwu.accountsystemapi.rewardtransaction.RewardTransactionController [http-nio-8080-exec-2] Get All Reward Transactions Controller Fired
+2021-10-10 20:08:15,084 INFO org.springframework.boot.StartupInfoLogger [main] Starting AccountSystemApiApplication using Java 11.0.12 on Lloyd-PC with PID 14620 (C:\Users\User-Pc\Desktop\account-system-api\target\classes started by User-Pc in C:\Users\User-Pc\Desktop\account-system-api)
+2021-10-10 20:08:15,084 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-10-10 20:08:15,084 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-10 20:08:20,057 INFO org.springframework.boot.StartupInfoLogger [main] Started AccountSystemApiApplication in 5.488 seconds (JVM running for 5.983)
+2021-10-10 20:08:29,076 DEBUG za.co.nwu.accountsystemapi.rewardtransaction.RewardTransactionController [http-nio-8080-exec-9] Get All Reward Transactions Controller Fired
+2021-10-10 20:09:39,511 INFO org.springframework.boot.StartupInfoLogger [main] Starting AccountSystemApiApplication using Java 11.0.12 on Lloyd-PC with PID 10448 (C:\Users\User-Pc\Desktop\account-system-api\target\classes started by User-Pc in C:\Users\User-Pc\Desktop\account-system-api)
+2021-10-10 20:09:39,526 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-10-10 20:09:39,526 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-10 20:09:44,431 INFO org.springframework.boot.StartupInfoLogger [main] Started AccountSystemApiApplication in 5.434 seconds (JVM running for 5.9)
+2021-10-10 20:09:52,466 DEBUG za.co.nwu.accountsystemapi.rewardtransaction.RewardTransactionController [http-nio-8080-exec-9] Get All Reward Transactions Controller Fired
+2021-10-10 20:11:05,735 INFO org.springframework.boot.StartupInfoLogger [main] Starting AccountSystemApiApplication using Java 11.0.12 on Lloyd-PC with PID 6296 (C:\Users\User-Pc\Desktop\account-system-api\target\classes started by User-Pc in C:\Users\User-Pc\Desktop\account-system-api)
+2021-10-10 20:11:05,735 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-10-10 20:11:05,735 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-10 20:14:09,347 INFO org.springframework.boot.StartupInfoLogger [main] Starting AccountSystemApiApplication using Java 11.0.12 on Lloyd-PC with PID 16444 (C:\Users\User-Pc\Desktop\account-system-api\target\classes started by User-Pc in C:\Users\User-Pc\Desktop\account-system-api)
+2021-10-10 20:14:09,347 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-10-10 20:14:09,347 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-10 20:14:14,283 INFO org.springframework.boot.StartupInfoLogger [main] Started AccountSystemApiApplication in 5.435 seconds (JVM running for 5.883)
+2021-10-10 20:14:25,210 DEBUG za.co.nwu.accountsystemapi.rewardtransaction.RewardTransactionController [http-nio-8080-exec-9] Get All Reward Transactions Controller Fired
+2021-10-10 20:15:25,294 INFO org.springframework.boot.StartupInfoLogger [main] Starting MilesAccountRepositoryTest using Java 11.0.12 on Lloyd-PC with PID 12716 (started by User-Pc in C:\Users\User-Pc\Desktop\account-system-api)
+2021-10-10 20:15:25,294 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-10-10 20:15:25,294 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-10 20:15:28,543 INFO org.springframework.boot.StartupInfoLogger [main] Started MilesAccountRepositoryTest in 3.726 seconds (JVM running for 4.685)
+2021-10-10 20:18:05,658 INFO org.springframework.boot.StartupInfoLogger [main] Starting MilesAccountRepositoryTest using Java 11.0.12 on Lloyd-PC with PID 4844 (started by User-Pc in C:\Users\User-Pc\Desktop\account-system-api)
+2021-10-10 20:18:05,658 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-10-10 20:18:05,658 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-10 20:18:08,814 INFO org.springframework.boot.StartupInfoLogger [main] Started MilesAccountRepositoryTest in 3.623 seconds (JVM running for 4.564)
+2021-10-10 20:18:40,726 INFO org.springframework.boot.StartupInfoLogger [main] Starting AccountSystemApiApplication using Java 11.0.12 on Lloyd-PC with PID 10876 (C:\Users\User-Pc\Desktop\account-system-api\target\classes started by User-Pc in C:\Users\User-Pc\Desktop\account-system-api)
+2021-10-10 20:18:40,741 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-10-10 20:18:40,741 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-10 20:18:45,709 INFO org.springframework.boot.StartupInfoLogger [main] Started AccountSystemApiApplication in 5.501 seconds (JVM running for 5.962)
+2021-10-10 20:18:59,171 DEBUG za.co.nwu.accountsystemapi.activereward.ActiveRewardController [http-nio-8080-exec-9] Get All Active Rewards Controller Fired

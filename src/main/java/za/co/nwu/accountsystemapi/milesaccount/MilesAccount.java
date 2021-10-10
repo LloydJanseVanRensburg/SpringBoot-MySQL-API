@@ -3,7 +3,7 @@ package za.co.nwu.accountsystemapi.milesaccount;
 import javax.persistence.*;
 
 @Entity
-@Table()
+@Table(name = "miles_account")
 public class MilesAccount {
 
     @Id

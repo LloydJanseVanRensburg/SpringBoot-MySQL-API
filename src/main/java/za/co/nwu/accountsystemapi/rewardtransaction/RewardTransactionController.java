@@ -42,29 +42,16 @@ public class RewardTransactionController {
         return rewardTransactionService.getRewardTransactionById(id);
     }
 
-    @PostMapping("/")
-    @ApiOperation(
-            value="Create a new reward transaction",
-            notes = "Provide request body with reward trabsaction object",
-            response= RewardTransaction.class
-    )
-    public RewardTransaction createRewardTransaction(@RequestBody RewardTransaction rewardTransaction) {
-        logger.debug("Create Reward Transaction Controller Fired");
-        return rewardTransactionService.createRewardTransaction(rewardTransaction);
-    }
-
-    @PutMapping("/{id}")
+    @PostMapping("/{}")
     @ApiOperation(
             value="Create a new reward transaction",
             notes = "Provide request body with reward transaction object",
             response= RewardTransaction.class
     )
-    public RewardTransaction updateRewardTransaction(
-            @PathVariable int id,
-            @RequestBody RewardTransaction rewardTransaction
-    ) {
-        logger.debug("Update Reward Transaction Controller Fired");
-        return rewardTransactionService.updateRewardTransactionById(id, rewardTransaction);
+    public RewardTransaction createRewardTransaction(@RequestParam int userId,
+                                                     @RequestParam int rewardId) {
+        logger.debug("Create Reward Transaction Controller Fired");
+        return rewardTransactionService.createRewardTransaction(userId, rewardId);
     }
 
     @DeleteMapping("/{id}")
